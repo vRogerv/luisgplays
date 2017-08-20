@@ -78,7 +78,7 @@
           <a class="navbar-brand" href="index.php">LuisGPlays</a>
           <?php
               if(isset($_SESSION['steamid'])) {
-                    echo "<a href=\"https://www.luisgplays.com/free.php\" style='margin-left: 50px'><button type=\"button\" class=\"btn btn-success navbar-btn\" style=\"display:inline-block\">Free <i class=\"fa fa-money fa-1x\" aria-hidden=\"true\" style=\"color: white;\"></i></button></a>";     
+                    echo "<a href=\"https://www.luisgplays.com/free.php\" style='margin-left: 10px'><button type=\"button\" class=\"btn btn-success navbar-btn\" style=\"display:inline-block\">Free <i class=\"fa fa-money fa-1x\" aria-hidden=\"true\" style=\"color: white;\"></i></button></a>";     
                   
                 while($row = mysqli_fetch_array($sqldata9, MYSQLI_ASSOC)){
                   echo "<button id=\"myButton\"type=\"button\" class=\"btn btn-primary navbar-btn\" style=\"display:inline-block; margin-left: 10px\">";
