@@ -174,40 +174,40 @@
           echo "</div>";
           echo "</div>";
           
-//              if($row['Entires'] == 20) {
-//               echo "<div class=\"alert alert-danger\" role=\"alert\">";
-//               echo "<p>Giveaway entries closed! Try another.</p>";
-//               echo "</div>";
-//                  
-//               }
-//              if($row['Entires'] < 20) {
-//              
-//                  if($row7['Coins'] == 25) {
-//                   echo "<form id='name' action='process.php' method='post' accept-charset='UTF-8'>";
-//                   echo "<fieldset>";
-//                   echo "<button class=\"btn btn-lg btn-primary btn-block animated zoomIn\" type=\"submit\" value=\"Submit\">";
-//                   echo "Join the giveaway for <i class=\"fa fa-money\" aria-hidden=\"true\"></i> 25</button>";
-//                   echo "</fieldset>";
-//                   echo "</form>"; 
-//
-//                 }
-//                 if($row7['Coins'] > 25){
-//                   echo "<form id='name' action='process.php' method='post' accept-charset='UTF-8'>";
-//                   echo "<fieldset>";
-//                   echo "<button class=\"btn btn-lg btn-primary btn-block animated zoomIn\" type=\"submit\" value=\"Submit\">";
-//                   echo "Join the giveaway for <i class=\"fa fa-money\" aria-hidden=\"true\"></i> 25</button>";
-//                   echo "</fieldset>";
-//                   echo "</form>";    
-//
-//                   } 
-//
-//                 if($row7['Coins'] < 25) {
-//                   echo "<div class=\"alert alert-danger\" role=\"alert\">";
-//                   echo "<p>You need at least <i class=\"fa fa-money\" aria-hidden=\"true\"></i> 25 to enter.</p>";
-//                   echo "</div>";
-//
-//                   }
-//               }
+              if($row['Entires'] == 20) {
+               //echo "<div class=\"alert alert-danger\" role=\"alert\">";
+               //echo "<p>Giveaway entries closed! Try another.</p>";
+               //echo "</div>";
+                  
+               }
+              if($row['Entires'] < 20) {
+              
+                  if($row7['Coins'] == 25) {
+                   echo "<form id='name' action='process.php' method='post' accept-charset='UTF-8'>";
+                   echo "<fieldset>";
+                   //echo "<button class=\"btn btn-lg btn-primary btn-block animated zoomIn\" type=\"submit\" value=\"Submit\">";
+                   //echo "Join the giveaway for <i class=\"fa fa-money\" aria-hidden=\"true\"></i> 25</button>";
+                   echo "</fieldset>";
+                   echo "</form>"; 
+
+                 }
+                 if($row7['Coins'] > 25){
+                   echo "<form id='name' action='process.php' method='post' accept-charset='UTF-8'>";
+                   echo "<fieldset>";
+                   //echo "<button class=\"btn btn-lg btn-primary btn-block animated zoomIn\" type=\"submit\" value=\"Submit\">";
+                   //echo "Join the giveaway for <i class=\"fa fa-money\" aria-hidden=\"true\"></i> 25</button>";
+                   echo "</fieldset>";
+                   echo "</form>";    
+
+                  } 
+
+                 if($row7['Coins'] < 25) {
+                   //echo "<div class=\"alert alert-danger\" role=\"alert\">";
+                   //echo "<p>You need at least <i class=\"fa fa-money\" aria-hidden=\"true\"></i> 25 to enter.</p>";
+                   //echo "</div>";
+
+                   }
+               }
              
             
           echo "</div>";
