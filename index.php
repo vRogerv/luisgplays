@@ -214,8 +214,18 @@
         }}
         echo "</div>";
       ?>
-      <hr>
-      <br>
+      <hr> 
+      <br>    <p>
+                 <h1> PC Specs explanation </h1>
+                 I am using an iMac 21.5 inch 2013 Model Which i bootcamped to run windows
+                 which is what i use to stream and play with. Its was a very expensive iMac
+                 ut not good for PC Gaming and keeps me from not being able to play most popular PC titles.
+      
+                 Windows 8.1
+                 Intel Core i5-4570S CPU@2.90GHz
+                 8GB Ram
+                 NVIDIA GeForce GT 750M
+              </p> 
       <div class="alert alert-info" role="alert">
       <p><a href="https://imgur.com/a/MNJxN" target="_blank">Tutorial on how to join the list and earn points.</a></p>
       </div>
